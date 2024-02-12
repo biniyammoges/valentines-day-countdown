@@ -17,8 +17,8 @@ movingElement.addEventListener("click", function () {
 
   yesButton.style.fontSize = +fontSize.replace("px", "") + 6 + "px";
   yesButton.style.lineHeight = +lineHeight.replace("px", "") + 6 + "px";
-  movingElement.style.fontSize = +noButtonFontSize.replace("px", "") - 4 + "px";
-  movingElement.style.opacity = noButtonOpacity - 0.3;
+  movingElement.style.fontSize = +noButtonFontSize.replace("px", "") - 3 + "px";
+  movingElement.style.opacity = noButtonOpacity - 0.2;
   if (noButtonOpacity < 0.3) {
     movingElement.style.display = "none";
   }
