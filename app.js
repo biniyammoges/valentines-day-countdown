@@ -33,7 +33,7 @@ const accept = () => {
 yesButton.addEventListener("click", accept);
 
 let year = new Date().getFullYear();
-let countDownDate = new Date(`Feb 14, ${year} 15:37:25`).getTime();
+let countDownDate = new Date(`Feb 14, ${year}`).getTime();
 
 const dayHtml = document.getElementById("day");
 const hourHtml = document.getElementById("hour");
